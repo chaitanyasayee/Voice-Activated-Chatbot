@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "pattern": "LOAD AIML B",
+      "template": "<aiml>./standard/*.aiml</aiml>"
+    },
+    {
+      "pattern": "GREETING",
+      "template": "Hello! How can I assist you?"
+    },
+    {
+      "pattern": "WEATHER *",
+      "template": "weather"
+    },
+    {
+      "pattern": "JOKE",
+      "template": "joke"
+    },
+    {
+      "pattern": "WIKI *",
+      "template": "wiki"
+    },
+    {
+      "pattern": "BYE",
+      "template": "Goodbye! Have a nice day."
+    },
+    {
+      "pattern": "*",
+      "template": "I'm sorry, but I don't understand. Can you please rephrase?"
+    }
+  ]
+}
